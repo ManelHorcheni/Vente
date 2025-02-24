@@ -9,12 +9,17 @@ const Ordinateur = () => {
           className="card-img-top"
           alt="Ordinateur Gamer"
         />
-        <div className="card-body text-center">
-          <h2 className="card-title">Ordinateur Gamer - Ultra Performance</h2>
+        <div className="card-body ">
+          <h2 className="card-title text-center">LENOVO THINKPAD</h2>
           <p className="card-text">
-          ProcesseurIntel Core i5, Stockage principal256 Go SSD, Système d'exploitationWindows 10, Processeur graphiqueIntel HD Graphics
+            <ul>
+                <li>Processeur Intel(R) Core(TM) i5-8350U CPU</li>
+                <li>Stockage principal 256 Go SSD</li>
+                <li>Mémoire RAM 8,00 Go</li>
+                <li>Système d'exploitation Windows 10</li>
+            </ul>
           </p>
-          <h3 className="text-danger">Prix : 2500€</h3>
+          <h3 className="text-danger">Prix : 2500 TND</h3>
           <button className="btn btn-primary mt-3">Acheter</button>
         </div>
       </div>
